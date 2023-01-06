@@ -36,6 +36,7 @@
 .header-text .header-btn {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
   border: none;
   outline: none;
   color: #005fac;
@@ -43,6 +44,11 @@
   padding: 15px 20px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.header-text .header-btn:hover {
+  color: #fff;
+  background: #000;
 }
 /* Style Fail Resone Area */
 .fail-box {
@@ -124,6 +130,50 @@
   margin: 5px 0;
   color: #555555;
 }
+/* style extra  */
+.extra {
+  margin-top: 40px;
+}
+.extra .extr-title {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.extra .extr-box {
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url("/images/r.jpg"), url("/images/banner/graeedient1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right, right;
+  background-blend-mode: overlay;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+.extr-box .box-one {
+  width: calc(50% - 50px);
+  height: 100%;
+  background: #fff;
+  padding: 2% 5%;
+  line-height: 1.5em;
+  font-size: 18px;
+  text-align: justify;
+}
+.box-one .box-title {
+  margin-bottom: 15px;
+}
+.extr-box .box-two {
+  width: calc(50% + 50px);
+  height: 100%;
+  background: transparent;
+  border-left: 100px solid white;
+  border-bottom: 400px solid transparent;
+}
 /* style call Area */
 .call-box {
   width: 1000px;
@@ -163,6 +213,11 @@
   background: #fff;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.call-text .call-btn:hover {
+  color: #fff;
+  background: #000;
 }
 /* Style footer area */
 .footer {
@@ -241,11 +296,16 @@
   padding: 15px 25px;
   margin-top: 10px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   border: none;
   outline: none;
   color: #fff;
   background: #005fac;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.sub-box .sub-btn:hover {
+  background: #fff;
+  color: #000;
 }
